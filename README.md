@@ -81,18 +81,19 @@
 
 ### **Base URL**
 ```
-http://localhost:8000/api/faq_app/
+http://localhost:8000/api/faqs/
 ```
 ### **Endpoints**
 1. **Fetch All FAQs** (GET):
    ```bash
-   curl http://localhost:8000/api/faq_app/
+   curl http://localhost:8000/api/faqs/
    ```
 
 2. **Fetch FAQs in a Specific Language** (GET):
    ```bash
-   curl http://localhost:8000/api/faq_app/?lang=hi  # Hindi
-   curl http://localhost:8000/api/faq_app/?lang=bn  # Bengali
+   curl http://localhost:8000/api/faqs/?lang=hi  # Hindi
+   curl http://localhost:8000/api/faqs/?lang=bn  # Bengali
+   curl http://localhost:8000/api/faqs/?lang=en # english
    ```
 ## **Admin Panel**
 1. Access the admin panel at `http://localhost:8000/admin`.
